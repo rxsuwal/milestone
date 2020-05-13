@@ -1,11 +1,14 @@
 body{
-  font-family: Montserrat,Helvetica, sans-serif;
+  font-family: montserrat;
   margin: 0;
 }
 
 img{
   height: 100%;
   width: 100%;
+}
+button{
+  font-family: inherit;
 }
 .home{
   background-image: url('https://bit.ly/2zuZcPg');
@@ -26,7 +29,83 @@ img{
 
 }
 
+.header{
+  position: relative;
+}
+.header>div{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 8vh;
+}
 .logo{
-  height: 150px;
-  width: 150px;
+  left: 24vh;
+}
+.menu{
+  right: 8vh;
+  
+}
+.menu>img{
+  height: 75px;
+  width: 75px;
+}
+
+
+.landing{
+display: flex;
+flex-direction: row;
+position: relative;
+top: 45vh;
+color: #ffffff;
+}
+.landing>div{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.brand{
+
+}
+.brand-name{
+  font-family: "gabriola";
+  font-size: -webkit-xxx-large;
+}
+.brand-quote{
+  font-size: large;
+
+}
+.brand-social{
+  font-size: x-large;
+  position: relative;
+  padding-top: 36px;
+}
+
+
+.options{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+.options>button{
+  
+  font-size: 28px;
+  border: none;
+  background-color: #4B0000;
+  color: #fff;
+  padding: 10px 8px;
+  width: 40%;
+  cursor: pointer;
+  transition: 1s;
+  border-radius: 25px;
+}
+
+.options>button:hover{
+transform: scale(1.1);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+transition: 1s;
+background-color: #000000;
+
 }
