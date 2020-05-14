@@ -17,7 +17,9 @@
 <body>
   <!-- Navbar -->
   <div class="home">
+    <div w3-include-html="section/navbar.htm"></div>
     <div class="overlay"></div>
+
     <div class="header">
       <div class="logo">
         <img src="image/logo.png" alt="">
@@ -26,6 +28,7 @@
         <img src="image/menu.png" alt="">
       </div>
     </div>
+
     <div class="landing">
       <div class="brand">
         <div class="brand-name">
@@ -51,8 +54,19 @@
     </div>
   </div>
 
+  <!-- ABOUT -->
+  <div class="about">
+
+  </div>
+
+  <!-- Footer Link -->
+  <div w3-include-html="section/Footer.htm"></div>
+
   <!-- JS LINK -->
   <script src="javascript/main.js"></script>
+  <script>
+    includeHTML();
+  </script>
 </body>
 
 </html>

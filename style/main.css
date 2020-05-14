@@ -10,6 +10,55 @@ img{
 button{
   font-family: inherit;
 }
+
+/* NAVBAR */
+
+.navbar{
+ /* display: none;
+   
+
+    transition: top 0.3s;
+    position: fixed; */
+
+    background-image: linear-gradient(to right, #4B0000 , #00000000);
+  position: fixed;
+  top: -200px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  text-align: center;
+  padding: 2vh 0vh 2vh 0vh;
+    align-items: center;
+  
+
+}
+.navbar>div{
+margin: auto;}
+
+.nav-logo{
+  height: 50px;
+    width: 50px;
+}
+.nav-content>ul{
+  list-style-type: none;
+}
+.nav-content>ul>li{
+  display: inline;
+  margin: auto;
+  text-align: center;
+}
+.nav-content a{
+  color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 8px 0px 8px;
+    font-weight: bold;
+}
+
+
+
+/* LANDING PAGE */
+
 .home{
   background-image: url('https://bit.ly/2zuZcPg');
   height: 100vh;
@@ -108,4 +157,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 transition: 1s;
 background-color: #000000;
 
+}
+
+/* ABOUT */
+.about{
+  height: 500vh;
 }
