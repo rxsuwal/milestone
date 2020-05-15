@@ -39,18 +39,16 @@ background-size: cover;
 
 .navbar{
 
-      /* background-image: linear-gradient(to right, #4B0000 , #00000000); */
-      background-color: #4B0000;
-    position: fixed;
-    top: -200px;
-    width: 100%;
-    display: block;
-    transition: top 0.3s;
-    text-align: center;
-    padding: 2vh 0vh 2vh 0vh;
-      align-items: center;
-  
-
+  background-color: #4B0000;
+  position: fixed;
+  top: -200px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  text-align: center;
+  padding: 2vh 0vh 2vh 0vh;
+  align-items: center;
+  z-index: 1;
 }
 .navbar>div{
 margin: auto;}
@@ -295,7 +293,91 @@ background-color: #000000;
 }
 
 
+/* MENTOR */
+.mentor{
+  width: 100%;
+ margin: auto;
 
+}
+.mentor hr{
+  width: 20%;
+}
+
+.mentor-title{
+margin: auto;
+}
+.mentor-subtitle{
+  text-align: center;
+  margin: auto;
+  width: 50%;  
+}
+
+.mentor-list{
+display: flex;
+margin: 5% 10% 1% 10%;
+}
+
+.mentor-list>div{
+  width: 20%;
+  margin: auto;
+
+}
+.mentor-list img{
+  border-radius: 50%;
+}
+
+
+.mentor-individual{
+
+}
+.mentor-image{
+  position: relative;
+
+}
+.mentor-individual:hover .mentor-detail{
+height: 100%;
+  
+}
+
+
+.mentor-detail{
+  height: 0;
+  bottom: 0;
+  position: absolute;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.2;
+    color: #ffffff;
+    transition: 0.5s ease;
+    border-radius: 50%;
+    text-align: center;
+}
+.mentor-detail>div{
+
+}
+.mentor-name{
+
+}
+.mentor-subject{
+
+}
+
+
+.mentor-view-all{
+  width: 100%;
+  text-align: center;
+}
+.mentor-view-all button{
+  padding: 10px 14px;
+  font-size: 16px;
+  margin: 2%;
+}
+
+.mentor-view-all button:hover{
+  padding: 8px 20px;
+  font-size: 18px;
+  text-align: left;
+}
 
 
 /* FOOTER */
