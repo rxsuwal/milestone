@@ -1,6 +1,7 @@
 body{
   font-family: montserrat;
   margin: 0;
+  background-color: #e2e2e2;
 }
 
 img{
@@ -9,6 +10,7 @@ img{
 }
 button{
   font-family: inherit;
+  cursor: pointer;
 }
 
 a{
@@ -32,7 +34,8 @@ background-size: cover;
 
 .navbar{
 
-      background-image: linear-gradient(to right, #4B0000 , #00000000);
+      /* background-image: linear-gradient(to right, #4B0000 , #00000000); */
+      background-color: #4B0000;
     position: fixed;
     top: -200px;
     width: 100%;
@@ -60,7 +63,7 @@ margin: auto;}
   text-align: center;
 }
 .nav-content a{
-  color: #000000;
+  color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     margin: 0px 8px 0px 8px;
@@ -174,8 +177,75 @@ background-color: #000000;
 
 /* ABOUT */
 .about{
-  height: 500vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
+
+.about>div{
+  margin: auto;
+    margin-bottom: 2%;
+}
+.about-detail{
+  display: flex;
+  width:60%;
+  box-shadow:1px 0px 5px black;
+
+}
+.about-detail>div{
+}
+
+.about-detail-image{
+  width: 40%;
+
+}
+.about-detail-description{
+  width: 60%;
+    text-align: justify;
+    padding: 24px;
+    font-size: 18px;
+
+}
+.about-detail-description button{
+    background-color: #430000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: padding 0.5s;
+}
+
+.about-detail-description button:hover{
+  padding: 8px 32px;
+}
+
+.about-links{
+  width: 20%;
+  padding-bottom: 15%;
+
+}
+.about-links>button{
+  width: 80%;
+  background-color: #430000;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    padding: 10px 16px;
+    transition: padding 0.5s
+    ;
+  
+
+}
+
+.about-links>button:hover{
+  background-color: black;
+  text-align: left;
+  padding: 10px 32px;
+}
+
+
 
 /* FOOTER */
 .footer{
