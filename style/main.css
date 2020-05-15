@@ -11,6 +11,11 @@ img{
 button{
   font-family: inherit;
   cursor: pointer;
+  background-color: #4B0000;
+  border: none;
+  color: white;
+  transition: padding 0.5s;
+  
 }
 
 a{
@@ -244,6 +249,52 @@ background-color: #000000;
   text-align: left;
   padding: 10px 32px;
 }
+
+
+/* CLASSES */
+.classes{
+  display: flex;
+  padding: 2%;
+  
+}
+
+.classes>div{
+  margin: auto;
+
+}
+
+.title{
+  font-size: x-large;
+  font-weight: bold;
+  width: 20%;
+  text-align: center;
+}
+
+.vl{
+  border-left: 1px solid #4B0000;
+  height: 60vh;
+  width: 1%;
+}
+.class-list{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.class-list>button{
+    padding: 12px;
+    font-size: 16px;
+}
+
+.class-list>button:hover{
+  text-align: start;
+  padding: 24px;
+}
+
+.class-image{
+  width: 10%;
+}
+
+
 
 
 
