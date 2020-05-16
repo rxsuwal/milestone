@@ -34,7 +34,6 @@ a:hover{
 
 .subtitle{
   text-align: center;
-  margin: auto;
   width: 50%;  
 }
 
@@ -315,6 +314,9 @@ background-color: #000000;
 .mentor-title{
 margin: auto;
 }
+.mentor-subtitle{
+  margin: auto;
+}
 
 .mentor-list{
 display: flex;
@@ -526,16 +528,29 @@ width: 20%;
 }
 
 .gallery-image{
-display: flex;
-padding: 5%;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+margin: 10% 10%;
+
 }
-.gallery-image>div{
-  margin: auto;
-  width: 25%;
+.gallery-title{
+grid-column: 2/4;
+margin: auto; 
 }
 
-.gallery-image-text{
+.gallery-title .title{
+  font-size: xx-large;
+}
+.gallery-title .subtitle{
+  width: 100%;
+  font-size: 22px; ;
+}
+.gallery-title hr{
+  width: 100%;
+}
 
+.gallery-image:hover .gallery-image>div>img{
+  display: block;
 }
 
 /* FOOTER */
