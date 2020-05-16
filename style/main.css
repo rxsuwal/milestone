@@ -15,7 +15,6 @@ button{
   border: none;
   color: white;
   transition: padding 0.5s;
-  
 }
 
 a{
@@ -24,6 +23,19 @@ a{
 }
 a:hover{
   text-decoration: underline;
+}
+
+.title{
+  font-size: x-large;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.subtitle{
+  text-align: center;
+  margin: auto;
+  width: 50%;  
 }
 
 
@@ -159,30 +171,29 @@ color: #ffffff;
 }
 .options>button{
   
-  font-size: 28px;
+  font-size: 24px;
   border: none;
   background-color: #4B0000;
   color: #fff;
   padding: 10px 8px;
   width: 40%;
   cursor: pointer;
-  transition: 1s;
   border-radius: 25px;
 }
 
 .options>button:hover{
 transform: scale(1.1);
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-transition: 1s;
+transition: 0.5s;
 background-color: #000000;
 
 }
 
 /* ABOUT */
 .about{
-  height: 100vh;
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    margin: 5%;
 }
 
 .about>div{
@@ -245,7 +256,7 @@ background-color: #000000;
 .about-links>button:hover{
   background-color: black;
   text-align: left;
-  padding: 10px 32px;
+  padding: 16px 32px;
 }
 
 
@@ -261,11 +272,8 @@ background-color: #000000;
 
 }
 
-.title{
-  font-size: x-large;
-  font-weight: bold;
+.class-title{
   width: 20%;
-  text-align: center;
 }
 
 .vl{
@@ -286,6 +294,7 @@ background-color: #000000;
 .class-list>button:hover{
   text-align: start;
   padding: 24px;
+  background-color: #000;
 }
 
 .class-image{
@@ -305,11 +314,6 @@ background-color: #000000;
 
 .mentor-title{
 margin: auto;
-}
-.mentor-subtitle{
-  text-align: center;
-  margin: auto;
-  width: 50%;  
 }
 
 .mentor-list{
@@ -398,8 +402,9 @@ margin: 5% 10% 1% 10%;
 }
 
 .mentor-view-all button:hover{
-  padding: 10px 24px;
+  padding: 16px 24px;
   text-align: left;
+  background-color: #000;
 }
 
 
@@ -447,6 +452,92 @@ width: 20%;
 
 }
 
+/* CONTACT */
+.contact{
+  margin: 2%;
+
+}
+
+.contact hr{
+  width: 30%;
+}
+.contact-title{
+  width: 100%;
+
+}
+
+.contact-detail{
+  display: flex;
+  margin: auto 6%;
+
+
+}
+.contact-detail>div{
+  margin: auto;
+  width: 40%;
+    height: 60vh;
+    padding: 2%;
+}
+
+.contact-text{
+  display: flex;
+  flex-direction: column;
+
+}
+.contact-text i{
+  margin: 10px;
+}
+.contact-text>div{
+  margin: auto;
+  width: 100%;
+  text-align: left;
+    
+}
+.contact-name{
+
+}
+.contact-address{
+
+}
+.contact-email{
+
+}
+.contact-number{
+
+}
+
+.contact-location{
+
+}
+
+.social-link a{
+  color: #000000;
+}
+
+
+/* GALLERY */
+.gallery{
+  margin: 2%;
+
+}
+
+.gallery hr{
+  width: 30%;
+}
+
+.gallery-image{
+display: flex;
+padding: 5%;
+}
+.gallery-image>div{
+  margin: auto;
+  width: 25%;
+}
+
+.gallery-image-text{
+
+}
+
 /* FOOTER */
 .footer{
   background: #4B0000 0% 0% no-repeat padding-box;
@@ -481,7 +572,9 @@ width: 20%;
 .footer-social a{
   font-size: 36px;
   margin: 5px;
+  transition: 0.5s ease;
 }
 .footer-social a:hover{
   color: #000000;
+  font-size: 50px;
 }
