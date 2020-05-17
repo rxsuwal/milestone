@@ -17,6 +17,10 @@ button{
   transition: padding 0.5s;
 }
 
+button:hover{
+  background-color: black;
+}
+
 a{
   text-decoration: none;
   color: #fff;
@@ -231,6 +235,7 @@ background-color: #000000;
 
 .about-detail-description button:hover{
   padding: 8px 32px;
+  background-color: black;
 }
 
 .about-links{
@@ -530,12 +535,24 @@ width: 20%;
 .gallery-image{
 display: grid;
 grid-template-columns: repeat(4, 1fr);
-margin: 10% 10%;
+margin:5% 10%;
+
 
 }
+.gallery-image>div{
+transition: 1s ease;
+}
+.gallery-image>div:hover{
+  transform: rotateY(360deg);
+}
+
 .gallery-title{
 grid-column: 2/4;
 margin: auto; 
+transition: 0.5s ease;
+}
+.gallery-title:hover{
+  transform: rotateX(360deg);
 }
 
 .gallery-title .title{
