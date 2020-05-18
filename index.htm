@@ -6,59 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Milestone Education Foundation</title>
 
-  <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
 
-  <link rel="stylesheet" href="style/main.css">
-  <link rel="stylesheet" href="style/mobile.css" media="screen and (max-device-width: 850px)">
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/mobile.css" media="screen and (max-device-width: 850px)">
 
   <script src="https://kit.fontawesome.com/9337df7910.js" crossorigin="anonymous"></script>
 </head>
 
+
 <body>
+
+
   <!-- Navbar -->
-  <div class="home parallax">
-    <div w3-include-html="section/navbar.htm"></div>
-    <div class="overlay"></div>
+  <div w3-include-html="section/navbar.htm"></div>
 
-    <div class="header">
-      <div class="logo">
-        <img src="image/logo.png" alt="">
-      </div>
-      <div class="menu">
-        <img src="image/menu.png" alt="">
-      </div>
-    </div>
+  <!-- Landing -->
+  <div w3-include-html="section/landing.htm"></div>
 
-    <div class="landing">
-      <div class="brand">
-        <div class="brand-name">
-          Milestone <br>Education Foundation
-        </div>
-        <div class="brand-quote">
-          "Enhance your Knowledge with us ! "
-        </div>
-
-        <div class="brand-social">
-          Fb Tw Ig Yt
-        </div>
-      </div>
-
-      <div class="options">
-        <br>
-        <button>Classes</button>
-        <br>
-        <button>Notices</button>
-        <br>
-        <button>Offers</button>
-      </div>
-    </div>
-  </div>
 
   <!-- ABOUT -->
   <div w3-include-html="section/about.htm"></div>
 
   <!-- CLASSES -->
   <div w3-include-html="section/classes.htm"></div>
+
+  <!-- Notices & Offers -->
+  <div w3-include-html="section/notices.htm"></div>
 
   <!-- MENTOR -->
   <div w3-include-html="section/mentor.htm"></div>

@@ -41,6 +41,9 @@ a:hover{
   width: 50%;  
 }
 
+.section{
+  padding-top: 15%;
+}
 
 /* Create the parallax scrolling effect */
 .parallax{
@@ -64,6 +67,13 @@ background-size: cover;
   padding: 2vh 0vh 2vh 0vh;
   align-items: center;
   z-index: 1;
+}
+
+@-moz-document url("http://127.0.0.1:5500/pages/"){
+  .navbar{
+    top:0px;
+  }
+
 }
 .navbar>div{
 margin: auto;}
@@ -267,7 +277,7 @@ background-color: #000000;
 /* CLASSES */
 .classes{
   display: flex;
-  padding: 2%;
+      margin: 2%
   
 }
 
